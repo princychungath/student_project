@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    h1 {color: blue;}
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Student List</h1>
+        {% for student in students %}
+            <h3>{{ student.Full_name }}</li>
+        {% endfor %}
+    </center>
+</body>
+</html>
